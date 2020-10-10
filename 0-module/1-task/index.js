@@ -4,14 +4,10 @@
  * @param {number} n
  * @returns {number}
  */
-function sum(m, n) {
-  m = 1
-  n = 1
-  
-  
-  
-return 2;
-}
-
-
+function sum(m, n){
+  let rasult = m + n;
+  return (rasult);
+  }
+  alert (sum(1,1) )
+  alert (sum(2,5) )
 
