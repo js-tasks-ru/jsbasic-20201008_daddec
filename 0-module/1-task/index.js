@@ -5,9 +5,9 @@
  * @returns {number}
  */
 function sum(m, n){
-  let rasult = m + n;
-  return (rasult);
+  return (m + n);
+   
   }
-  alert (sum(1,1) )
-  alert (sum(2,5) )
+ sum(1,1) 
+  sum(2,5) 
 
