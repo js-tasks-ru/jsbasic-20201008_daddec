@@ -11,6 +11,17 @@ function print(text) {
  */
 function isValid(name) {
   // ваш код...
+  
+  if( name == null ){ 
+    return false; 
+  } else if ( name == undefined){ 
+    return false; 
+  } else if ( name.length < 4 ){ 
+    return false;
+  } else if (name.includes(' ')){
+    return false;
+  }
+  return true;
 }
 
 function sayHello() {
@@ -22,3 +33,6 @@ function sayHello() {
     print('Некорректное имя');
   }
 }
+
+
+//alert( 'в'.toUpperCase() + 'ася' );
