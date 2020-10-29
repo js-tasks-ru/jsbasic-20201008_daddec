@@ -6,22 +6,14 @@
 
 
 function ucFirst(str) {
-  
-  if(isValid(str)){
-    let a = str[0].toUpperCase();
-    let b = str.slice( 1 );
-    c = a + b;
-    return c;
+  if (str.length == false){ 
+    return str;
   }
-return false;
+  let newStr = str[0].toUpperCase() + str.slice(1);
+  return newStr;
 }
 
-function isValid(str) {
-  if (str == ('')  ){
-    return false;
-  } 
 
-return true;
-  
-  
-}
+
+
+
