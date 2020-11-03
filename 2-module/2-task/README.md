@@ -6,7 +6,10 @@
 Работать должно так:
 ```js
 function isEmpty(obj) {
-  // ваш код...
+  if(Object.keys(obj).length == 0){
+    return console.log(true);
+  }
+  return console.log(false);
 }
 
 let schedule = {};
