@@ -1,8 +1,11 @@
-/**
- * Проверяем объект obj на пустоту
- * @param {Object} obj
- * @returns {Boolean}
- */
-function isEmpty(obj) {
-  // ваш код...
-}
+
+
+  function isEmpty(obj) {
+    let a;
+    if(Object.keys(obj).length == 0){
+      return a = true;
+    }
+    return a = false;
+  }
+  
+ 
