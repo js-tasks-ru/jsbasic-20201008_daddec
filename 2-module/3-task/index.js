@@ -11,7 +11,7 @@ let calculator = {
       return  this.a * this.b;
     },
 }
-calculator.read(3, 5);
+
 
 
 
