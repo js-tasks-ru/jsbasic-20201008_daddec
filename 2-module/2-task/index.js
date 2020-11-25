@@ -3,9 +3,9 @@
   function isEmpty(obj) {
     let a;
     if(Object.keys(obj).length == 0){
-      return a = true;
+      return true;
     }
-    return a = false;
+    return false;
   }
   
  
