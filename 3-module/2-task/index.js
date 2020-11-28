@@ -1,9 +1,11 @@
-/**
- * @param {number[]} arr
- * @param {number} a
- * @param {number} b
- * @returns {number[]}
- */
+let arr = [5, 3, 8, 1];
+let sub = [];
 function filterRange(arr, a, b) {
-  // ваш код...
+
+  arr.forEach(function(item){
+    if( a >= item || item <= b ){
+  sub.push(item)
+    }  
+})
+   return sub;
 }
