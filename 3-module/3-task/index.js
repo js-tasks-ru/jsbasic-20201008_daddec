@@ -1,12 +1,18 @@
-let arr = [];
 
-function camelize(str){
-  let a = str.split('-');
+function camelize(str) {
   
-for( let item of a){
-  if (item[0]){
-  arr.push (item[0].toUpperCase() + item.slice(1))
-  }
-}
-return (arr.join(''));
+  let newArr = str .split('-') 
+  let map1 = newArr .map(
+     
+   function  (word, index)  {
+      if (index == 0 ){
+      return  word; 
+      } else {
+      return  word[0].toUpperCase() + word.slice(1);
+      }
+      
+     }
+   ) 
+ return map1 
+   .join('');
 }
